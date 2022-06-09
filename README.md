@@ -16,12 +16,12 @@ from typing import List
 
 from django.db import models
 
-from django_subjective_sort.models import Sortable
+from src.django_subjective_sort.models import Sortable
 
 
 class Food(Sortable):
     name = models.CharField(max_length=255)
-    
+
     # Extend the `Sortable` class to save sorting order.
     # This allows flexibility to save other changes simultaneously.
     def reposition(self,

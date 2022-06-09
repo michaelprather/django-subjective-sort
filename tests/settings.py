@@ -25,6 +25,8 @@ SECRET_KEY = 'secret'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+USE_TZ = True
+
 # Application definition
 
 INSTALLED_APPS = [
