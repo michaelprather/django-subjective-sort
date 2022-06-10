@@ -21,6 +21,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Framework :: Django :: 4.1"
+        "Framework :: Django :: 4.0"
+        "Framework :: Django :: 3.2"
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
