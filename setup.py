@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="django-subject-sort",
-    version="0.2.0",
+    name="django-subjective-sort",
+    version="0.2.1",
     author="Michael Prather",
     author_email="michael@krit.com",
     description="Allows items of a collection to be manually sorted"
