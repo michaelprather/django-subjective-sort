@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="django-subjective-sort",
-    version="1.0.0",
+    version="1.0.1",
     author="Michael Prather",
     author_email="michael@krit.com",
     description="Allows items of a collection to be manually sorted"
@@ -20,8 +20,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-        "Framework :: Django :: 4.1"
-        "Framework :: Django :: 4.0"
+        "Framework :: Django :: 4.1",
+        "Framework :: Django :: 4.0",
         "Framework :: Django :: 3.2"
     ],
     package_dir={"": "src"},
