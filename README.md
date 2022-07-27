@@ -70,7 +70,7 @@ transaction.
 # food/models.py
 from typing import List
 
-from src.django_subjective_sort.models import Sortable
+from django_subjective_sort.models import Sortable
 
 
 class Food(Sortable):
